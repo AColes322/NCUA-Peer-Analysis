@@ -1,0 +1,39 @@
+# Database engine files (SQL Server Express)
+*.mdf
+*.ldf
+*.bak
+
+# PostgreSQL dumps / data exports
+*.dump
+data/exports/
+data/staging/
+
+# Tool settings
+*.suo
+*.user
+.vs/
+.ssmssqlproj
+pgadmin4.db
+
+# Raw NCUA data (see README for how to download data)
+data/raw/
+*.zip
+FS220*.txt
+AcctDesc.txt
+
+# Credentials
+.env
+*.config
+connectionstrings*.json
+
+# Power BI temp
+*.pbix.tmp
+~$*
+.pbi/localSettings.json
+*.abf
+
+# OS / OneDrive / editors
+desktop.ini
+Thumbs.db
+.DS_Store
+.vscode/
